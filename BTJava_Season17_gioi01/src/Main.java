@@ -6,14 +6,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            System.out.println("
+            System.out.println("""
                 1. Thêm sách
                 2. Cập nhật sách
                 3. Xóa sách
                 4. Tìm theo tác giả
                 5. Hiển thị tất cả
                 0. Thoát
-            ");
+            """);
 
             try {
                 System.out.print("Chọn: ");
